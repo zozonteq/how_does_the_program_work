@@ -17,6 +17,7 @@
 - クラスの定義
 <br>
 
+
 ### 動作に最低限必要なコードとコメント
 Python
 ```Python
@@ -48,6 +49,8 @@ JavaScript
 ```JavaScript
 //必要なコードはありません。
 ```
+
+
 ### 標準出力
 Python
 ``` Python
@@ -65,4 +68,74 @@ JavaScript
 ```JavaScript
 console.log("Hello,World!");
 ```
+
+
 ### 配列
+Python
+```Python
+list = [233,555,123]
+```
+C#
+```csharp
+int[] list = new int[3]{ 233, 555, 123};
+```
+C++
+```C++
+int list[3] = {222,555,123};
+```
+JavaScript
+```JavaScript
+var list = [222,555,123];
+```
+
+
+### 変数定義
+Python
+```Python
+x = 2
+s = "あいうえお"
+```
+C#
+```Csharp
+int n = 2;
+string s = "あいうえお";
+```
+C++
+```C++
+int n = 2 ;
+char s[] = "あいうえお";
+```
+JavaScript
+```JavaScript
+var n = 2;  
+let s = "あいうえお";
+```
+
+### メゾット（関数）の定義
+Python
+```Python
+def f(x,y):
+    return x + y
+f(2,4)
+```
+C#
+```Csharp
+int f(int x , int y){
+    return x + y; 
+}
+f(2,4);
+```
+C++
+```C++
+int f(int x , int y){
+    return x + y ;
+}
+f(2,4);
+```
+JavaScript
+```JavaScript
+let f = function(x,y){
+    return x + y;
+}
+f(2,4);
+```
