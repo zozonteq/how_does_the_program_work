@@ -21,8 +21,7 @@
 ### 動作に最低限必要なコードとコメント
 Python
 ```Python
-#必要なコードはありません。
-#ここに書く 
+#直接かける
 ```
 C#
 ```Csharp
@@ -47,9 +46,10 @@ int main(){
 ```
 JavaScript
 ```JavaScript
-//必要なコードはありません。
+//直接かける
 ```
-
+PythonやJavaScriptは直接書けますが、C#とC++はごにょごにょ書かないといけない。
+コンパイラ言語は大抵ごにょごにょ書く雰囲気
 
 ### 標準出力
 Python
@@ -62,13 +62,13 @@ Console.WriteLine("Hello,World!");
 ```
 C++
 ```C++
-cout << "Hello,World!" << endl;
+std::cout << "Hello,World!" << std::endl;
 ```
 JavaScript
 ```JavaScript
 console.log("Hello,World!");
 ```
-
+C#,Python,JavaScriptはメゾットで出力している。C++はシフト演算。
 
 ### 配列
 Python
@@ -87,7 +87,7 @@ JavaScript
 ```JavaScript
 var list = [222,555,123];
 ```
-
+Python,JavaScriptは少ないコードでかける。
 
 ### 変数定義
 Python
@@ -110,7 +110,7 @@ JavaScript
 var n = 2;  
 let s = "あいうえお";
 ```
-
+C#とC++は静的型付けだがPythonとJavaScriptは動的型付け。
 ### メゾット（関数）の定義
 Python
 ```Python
@@ -138,4 +138,51 @@ let f = function(x,y){
     return x + y;
 }
 f(2,4);
+```
+C#とC++はほとんど同じ。
+
+
+
+### クラス定義
+Python
+```Python
+
+```
+C#
+```Csharp
+class Human{
+    string name = "Tom";
+    int age = 0 ;
+    public Car(string name,int age){
+        this.name = name;
+        this.age = age;
+    }
+}
+//---------------------------------
+Human tomas = new Human("Tomas",22);
+```
+C++
+```C++
+class Human{
+    public:
+        string name="";
+        int age = 0 ;
+        Human(string name , int age);  
+};
+Human::Human(string name,int age){
+    this->name = name;
+    this->age = age;
+}
+//---------------------------------
+Human tomas("Tomas",22);
+```
+JavaScript
+```JavaScript
+const Human = class{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+}
+let tomas = new Human("Tomas",22);
 ```
