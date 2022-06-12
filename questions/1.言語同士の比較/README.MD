@@ -153,7 +153,7 @@ C#
 class Human{
     string name = "Tom";
     int age = 0 ;
-    public Car(string name,int age){
+    public Human(string name,int age){
         this.name = name;
         this.age = age;
     }
