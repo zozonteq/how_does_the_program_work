@@ -17,7 +17,22 @@
 - クラスの定義
 <br>
 
-
+## Python
+オブジェクト指向インタープリター言語  
+動的型付け  
+[Wiki Pedia](https://ja.m.wikipedia.org/wiki/Python "WikiPedia")
+## C#
+オブジェクト指向コンパイル言語  
+静的型付け  
+[Wiki Pedia](https://ja.m.wikipedia.org/wiki/C_Sharp "WikiPedia")
+## C++
+オブジェクト指向コンパイル言語  
+静的型付け  
+[Wiki Pedia](https://ja.m.wikipedia.org/wiki/C%2B%2B "WikiPedia")
+## JavaScript
+オブジェクト指向スクリプト言語  
+動的型付け  
+[WikiPedia](https://ja.m.wikipedia.org/wiki/JavaScript "WikiPedia")
 ### 動作に最低限必要なコードとコメント
 Python
 ```Python
@@ -146,7 +161,12 @@ C#とC++はほとんど同じ。
 ### クラス定義
 Python
 ```Python
-
+class Human:
+   def  __init__(name,age):
+      self.name=name
+      self.age=age
+      
+Tomas = Human("Tomas",22)
 ```
 C#
 ```Csharp
