@@ -6,8 +6,8 @@ OS:Ubuntu 20.04
 Arch:x86  
 CC:G++
 ```
-<br>
-src
+
+src  
 ```C++
 #include <iostream>
 using namespace std;
