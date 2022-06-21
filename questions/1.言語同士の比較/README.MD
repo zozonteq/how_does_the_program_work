@@ -20,19 +20,35 @@
 ## Python
 オブジェクト指向インタープリター言語  
 動的型付け  
+処理速度が遅い。  
+簡単  
+幅広く使われる。　　
 [Wiki Pedia](https://ja.m.wikipedia.org/wiki/Python "WikiPedia")
 ## C#
 オブジェクト指向コンパイル言語  
 静的型付け  
+Windowsと相性が良い　　
+コンパイル必要
 [Wiki Pedia](https://ja.m.wikipedia.org/wiki/C_Sharp "WikiPedia")
 ## C++
 オブジェクト指向コンパイル言語  
 静的型付け  
+処理速度が速い。  
+機械語に近い  
+C言語の上位互換  
+コンパイルが必要
 [Wiki Pedia](https://ja.m.wikipedia.org/wiki/C%2B%2B "WikiPedia")
 ## JavaScript
 オブジェクト指向スクリプト言語  
 動的型付け  
+主にWeb系で使われる。  
+ブラウザで動く  
 [WikiPedia](https://ja.m.wikipedia.org/wiki/JavaScript "WikiPedia")
+## Java
+オブジェクト指向  
+JVM上で動く  
+クロスプラットフォーム  
+コンパイル必要
 ### 動作に最低限必要なコードとコメント
 Python
 ```Python
@@ -63,8 +79,9 @@ JavaScript
 ```JavaScript
 //直接かける
 ```
-PythonやJavaScriptは直接書けますが、C#とC++はごにょごにょ書かないといけない。
-コンパイラ言語は大抵ごにょごにょ書く雰囲気
+PythonやJavaScriptは直接書ける、C#とC++はごにょごにょ書かないといけない。
+コンパイラ言語は大抵ごにょごにょ書く雰囲気  
+pythonとjsは行末に;がいらない。
 
 ### 標準出力
 Python
@@ -103,6 +120,7 @@ JavaScript
 var list = [222,555,123];
 ```
 Python,JavaScriptは少ないコードでかける。
+
 
 ### 変数定義
 Python
@@ -154,7 +172,8 @@ let f = function(x,y){
 }
 f(2,4);
 ```
-C#とC++はほとんど同じ。
+C#とC++はほとんど同じ。  
+Phthonとjsは戻り値の型を指定しなくていい。
 
 
 
@@ -206,3 +225,9 @@ const Human = class{
 }
 let tomas = new Human("Tomas",22);
 ```
+
+PythonとJavaScriptが似てる。
+C++が他の言語と似ていない。
+
+## まとめ
+スクリプト言語同士、コンパイル言語同士はそれぞれ似ている所が多い。
