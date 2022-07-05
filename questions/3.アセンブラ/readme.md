@@ -8,7 +8,7 @@ CPU:x86
 ## 解ったこと
 例)
 ```asm
-.intel_syntax noprefix
+.intel_syntax noprefix ;アーキテクチャ
 .globl main
 main:
 ;メイン関数
